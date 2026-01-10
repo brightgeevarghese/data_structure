@@ -13,10 +13,10 @@ public class Main {
                     }
                 }
         );
-        queue.add(new Employee("A", 1000, "a@gmail.com"));
-        queue.add(new Employee("B", 1500, "b@gmail.com"));
-        queue.add(new Employee("C", 900, "c@gmail.com"));
-        queue.add(new Employee("D", 1200, "d@gmail.com"));
+        queue.offer(new Employee("A", 1000, "a@gmail.com"));
+        queue.offer(new Employee("B", 1500, "b@gmail.com"));
+        queue.offer(new Employee("C", 900, "c@gmail.com"));
+        queue.offer(new Employee("D", 1200, "d@gmail.com"));
         System.out.println(queue);
         while (!queue.isEmpty()) {
             System.out.println(queue.poll());
